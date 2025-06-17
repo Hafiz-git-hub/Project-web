@@ -31,10 +31,17 @@
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
         <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
     </nav>
 
     <!-- Navbar end -->
@@ -85,32 +92,32 @@
 
       <div class="row">
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img">
+          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
           <h3 class="menu-card-title">- Espresso -</h3>
           <p class="menu-card-price">IDR 15K</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img">
+          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
           <h3 class="menu-card-title">- Espresso -</h3>
           <p class="menu-card-price">IDR 15K</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img">
+          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
           <h3 class="menu-card-title">- Espresso -</h3>
           <p class="menu-card-price">IDR 15K</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img">
+          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
           <h3 class="menu-card-title">- Espresso -</h3>
           <p class="menu-card-price">IDR 15K</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img">
+          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
           <h3 class="menu-card-title">- Espresso -</h3>
           <p class="menu-card-price">IDR 15K</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img">
+          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
           <h3 class="menu-card-title">- Espresso -</h3>
           <p class="menu-card-price">IDR 15K</p>
         </div>
@@ -119,7 +126,7 @@
     <!-- Menu Section end -->
 
     <!-- Contact Section start -->
-     <section id="contact" class="contact">
+    <section id="contact" class="contact">
       <h2><span>Kontak</span> Kami</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
@@ -127,26 +134,55 @@
       </p>
 
       <div class="row">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253798.94531462513!2d107.15426289999999!3d-6.3150459999999935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699a97cdfd23f3%3A0xa467efa8d683cc31!2sCikarang%2C%20Kabupaten%20Bekasi%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1750157520636!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253798.94531462513!2d107.15426289999999!3d-6.3150459999999935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699a97cdfd23f3%3A0xa467efa8d683cc31!2sCikarang%2C%20Kabupaten%20Bekasi%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1750157520636!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
 
         <form action="">
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" placeholder="nama">
+            <input type="text" placeholder="nama" />
           </div>
           <div class="input-group">
             <i data-feather="mail"></i>
-            <input type="text" placeholder="email">
+            <input type="text" placeholder="email" />
           </div>
           <div class="input-group">
             <i data-feather="phone"></i>
-            <input type="text" placeholder="no hp">
+            <input type="text" placeholder="no hp" />
           </div>
           <button type="submit" class="btn">kirim pesan</button>
         </form>
       </div>
-     </section>
-     <!-- Contact Section end -->
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#cotact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>
+          Created by <a href="">Hafiz Riziq Choiriansyah</a>. | &copy; 2023.
+        </p>
+      </div>
+    </footer>
+    <!-- Footer end -->
     <!-- Feather icons -->
     <script>
       feather.replace();
